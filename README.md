@@ -2,4 +2,8 @@
 under development - python based port scanner (primary phase)
 
 
-Syntax (UNIX) : python3 pyrt.py <ip address> 
+Syntax (UNIX) :
+
+'''markdown
+python3 pyrt.py <ip address> 
+'''
