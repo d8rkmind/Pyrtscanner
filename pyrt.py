@@ -42,6 +42,6 @@ except socket.error:
 print("*" * 50) 
 
 for i in portl:
-    print("\n\t Port {} is open\n".format(i))
+    print("\n\tFound open port : {}\n".format(i))
 
 print("*" * 50)
