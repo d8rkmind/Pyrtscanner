@@ -22,7 +22,7 @@ try:
         s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
         socket.setdefaulttimeout(1)
         result = s.connect_ex((target,port))                    # scanning for openports 
-        print("\n Checking at "+ target +" : " +str(port)+"\t")
+        print("\n Checking at "+ target +":" +str(port)+"\t")
         if result == 0:
             portl.append(port)
         s.close()
